@@ -1,0 +1,31 @@
+<div class="login-container">
+    <form [formGroup]="login" (ngSubmit)="logindata(login)">
+      <div class="form-container">
+        <div class="form-sections mb">
+          <div class="heading-container">
+            <h1 class="heading">Login</h1>
+          </div>
+        </div>
+        <div class="form-sections">
+          <div class="form-fields">
+            <label for="username">Username</label>
+            <input type="text" name="name" id="name" formControlName="uname" class="input-field" tabindex="1" required />
+          </div>
+          <div class="form-fields">
+            <label for="pass">Password</label>
+            <div id="pass-field-container">
+  
+              <input type="password" name="pass" formControlName="password" id="pass" class="input-field" required tabindex="2" />
+              
+            </div>
+          </div>
+          <div class="form-fields">
+            <input type="submit" value="Log In" class="login-btn" tabindex="4" />
+          </div>
+        </div>
+        <div class="form-sections">
+          <div class="forgot-password"><a href="#">Forgot Password?</a></div>
+        </div>
+      </div>
+    </form>
+  </div>

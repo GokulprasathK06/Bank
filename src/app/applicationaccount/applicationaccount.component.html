@@ -1,0 +1,31 @@
+<div *ngIf="isTableVisible">
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Aadhar Number</th>
+      <th>Pan number</th>
+      <th>DOB</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let apply of application">
+    
+      <td>{{ apply.uname }}</td>
+      <td>{{ apply.phone }}</td>
+      <td>{{ apply.email }}</td>
+      <td>{{ apply.aadharnumber }}</td>
+      <td>{{ apply.pannumber }}</td>
+      <td>{{ apply.dob }}</td>
+      <td>
+        <button *ngIf="apply.status==='pending'" (click)="onApprove(apply)" >Approve</button>
+        <button *ngIf="apply.status==='pending'" (click)="onReject(apply)" >Reject</button>
+      </td>
+     
+    </tr>
+  </tbody>
+</table>
+</div>

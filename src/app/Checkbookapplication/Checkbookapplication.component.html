@@ -1,0 +1,30 @@
+<div *ngIf="isTableVisible">
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Aadhar Number</th>
+      <th>Account Number</th>
+      <th>Pan Number</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of checkbook">
+      <td>{{ book.uname }}</td>
+      <td>{{ book.phone }}</td>
+      <td>{{ book.email }}</td>
+      <td>{{ book.aadharnumber}}</td>
+      <td>{{ book.accnumber}}</td>
+      <td>{{ book.pannumber }}</td>
+      <td>
+        <button *ngIf="book.status==='pending'" (click)="onApprove(book)" >Approve</button>
+        <button *ngIf="book.status==='pending'" (click)="onReject(book)" >Reject</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+

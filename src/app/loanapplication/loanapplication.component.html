@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Account Number</th>
+      <th>DOB</th>
+      <th>Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let loan of loanapply">
+      <td>{{ loan.uname }}</td>
+      <td>{{ loan.phone }}</td>
+      <td>{{ loan.email }}</td>
+      <td>{{ loan.accountNumber }}</td>
+      <td>{{ loan.dob }}</td>
+      <td>{{ loan.balance }}</td>
+      <td>
+        <button *ngIf="loan.status==='pending'" (click)="onApprove(loan)" >Approve</button>
+        <button *ngIf="loan.status==='pending'" (click)="onReject(loan)" >Reject</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

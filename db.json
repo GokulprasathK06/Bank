@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "registerUser": [
+    {
+      "fname": "Gokul",
+      "uname": "gokul",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fname": "Suresh",
+      "uname": "suresh",
+      "phone": "6747829291",
+      "email": "suresh06@gmail.com",
+      "accnumber": "3442145671",
+      "password": "5678",
+      "id": 2
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Gokul",
+      "accountNumber": 1234567891,
+      "balance": 10000,
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "pravin",
+      "accountNumber": 9876543219,
+      "balance": 20000,
+      "password": "5678"
+    },
+    {
+      "id": 3,
+      "name": "ramesh",
+      "accountNumber": 5678912341,
+      "balance": 50000,
+      "password": "2468"
+    }
+  ],
+  "accountinformation": [
+    {
+      "fname": "Gokul",
+      "uname": "gokul",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accountNumber": "1234567891",
+      "dob": "31/07/2002",
+      "balance": 10000,
+      "password": "5678",
+      "id": "1"
+    }
+  ],
+  "users": [
+    {
+      "fname": "Gokul",
+      "uname": "gokul",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "dob": "31/07/2002",
+      "balance": 10000,
+      "password": "1234"
+    }
+  ],
+  "accountapply": [
+    {
+      "uname": "Gokul",
+      "fname": "Gokul",
+      "lname": "Prasath",
+      "phone": 6383883954,
+      "email": "gokulofficial06@gmail.com",
+      "aadharnumber": 589606191024,
+      "pannumber": 759372605295,
+      "dob": "2002-07-31",
+      "id": 1,
+      "status": "pending"
+    },
+    {
+      "uname": "pravin",
+      "fname": "pravil",
+      "lname": "k",
+      "phone": 6383883954,
+      "email": "gokulofficial06@gmail.com",
+      "aadharnumber": 589606191024,
+      "pannumber": 759372605295,
+      "dob": "2002-07-31",
+      "id": 2,
+      "status": "pending"
+    }
+  ],
+  "checkbook": [
+    {
+      "uname": "Gokul",
+      "fname": "Gokulprasath",
+      "lname": "K",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "aadharnumber": "589606191024",
+      "pannumber": 2797522979572,
+      "id": 1,
+      "status": "pending"
+    },
+    {
+      "uname": "Gokul",
+      "fname": "Gokulprasath",
+      "lname": "K",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "aadharnumber": "589606191024",
+      "pannumber": 2797522979572,
+      "id": 1,
+      "status": "pending"
+    }
+  ],
+  "address": [],
+  "phonenumber": [],
+  "loan": [],
+  "admin": [
+    {
+      "uname": "admin",
+      "password": "admin"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

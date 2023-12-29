@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "registerUser": [
+    {
+      "fname": "Gokul",
+      "uname": "gokul",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "accountinformation":[
+    {
+      "id":"1"
+
+    },
+    {
+      "fname": "Gokul",
+      "uname": "gokul",
+      "phone": "6383883954",
+      "email": "gokulofficial06@gmail.com",
+      "accnumber": "1234567891",
+      "dob":"31/07/2002",
+      "balance":10000
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

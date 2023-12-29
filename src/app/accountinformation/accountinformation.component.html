@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Account Number</th>
+      <th>DOB</th>
+      <th>Balance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let account of accounts">
+      <td>{{ account.uname }}</td>
+      <td>{{ account.phone }}</td>
+      <td>{{ account.email }}</td>
+      <td>{{ account.accountNumber }}</td>
+      <td>{{ account.dob }}</td>
+      <td>{{ account.balance }}</td>
+    </tr>
+  </tbody>
+</table>

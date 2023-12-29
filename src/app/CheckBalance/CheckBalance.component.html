@@ -1,0 +1,43 @@
+<body>
+  <form (ngSubmit)="onSubmit()" >
+
+    <div class="container">
+    
+    <div class="form balance">
+    
+    <h2>Balance Status</h2>
+    
+    <div class="inputbox">
+    
+    <input type="text" [(ngModel)]="accountNumber"   name="accnumber" pattern="[0-9]{10}" title="please enter a valid AccountNumber">
+    
+    <i class="fa-solid fa-check"></i>
+    
+    <span>Enter AccountNumber</span>
+    
+    </div>
+    
+    <div class="inputbox">
+    
+    <input type="password"  name="pinnumber" [(ngModel)]="password" pattern="[0-9]{04}" title="please enter a valid 4 digit number" minlength=4 maxlength=4>
+    
+    <i class="fa-solid fa-lock"></i>
+    
+    <span>Enter Pin Number</span>
+    
+    </div>
+    
+    <div class="inputbox">
+    
+    <input type="submit" value="Check Balance">
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </form>
+   
+    </body>
+    
